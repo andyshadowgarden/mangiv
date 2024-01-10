@@ -1,0 +1,60 @@
+.contenu{
+    width: 100%; 
+    position: absolute;
+    top: 30%;
+    text-align: center;
+}
+.contenu h4{
+    font-family: Jacques Francois;
+    font-size: 195%;
+    font-weight: 100;
+    border-bottom:solid 1px ;
+    animation: entete infinite 3s;
+}
+@keyframes entete{
+    from{
+        transform: rotateY(-15deg);
+    }
+    to{
+        transform: rotateY(15deg);
+    }
+}
+.contenu img{
+    width: 60%;
+    height: 15%;
+}
+.contenu ul{
+    list-style: none;
+    font-family: Jacques Francois;
+    justify-content: space-between;
+    position: relative;
+    right: 17px;
+}
+.contenu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 105%;
+    background-color: #18F811;
+    padding-left: 535px;
+    padding-right: 535px;
+
+}
+.contenu ul li a:hover{
+    background-color: #18cc12;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 210px;
+    position: absolute;
+    top: 200%;
+}
+footer p{
+    color: #FFF;
+    text-align: center;
+    font-family: Judson;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
